@@ -14,10 +14,15 @@ export default function Corpo() {
         return v1+v2;
     }
 
+    const destaqueTexto = {
+        color: 'green',
+        fontSize: '3em'
+    }
+
     return (
-        <section>
-            <h2>Curso de React</h2>
-            <p>Se inscreva em nosso canal</p>
+        <section className='caixa'>
+            <h2 style={destaqueTexto}>Curso de React</h2>
+            <p className='texto'>Se inscreva em nosso canal</p>
             <p>Ative o sininho e clique no joinha</p>
             <Dados
                 canal={cnl}
@@ -25,6 +30,7 @@ export default function Corpo() {
                 curso={crs}
                 soma={soma}
             />
+            <a href='#'>CFB Cursos</a>
         </section>
     );
 };

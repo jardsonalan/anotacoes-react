@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <header>
             <img src={Logo}/>
-            <h1>CFB Cursos</h1>
+            <h1 style={{color: 'red', fontSize: '5em'}}>CFB Cursos</h1>
         </header>
     );
 };

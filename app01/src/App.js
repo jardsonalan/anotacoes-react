@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header.js'; // Importação de componente
 import Corpo from './components/Corpo.js';
+import './App.css';
 // import Dados from './components/Dados.js';
 // import LogoServ from './components/imgs/react.png';
 
