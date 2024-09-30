@@ -3,6 +3,7 @@ import Header from './components/Header.js'; // Importação de componente
 import Corpo from './components/Corpo.js';
 import './App.css';
 import Relogio from './components/Relogio.js';
+import State from './components/State.js';
 // import Dados from './components/Dados.js';
 // import LogoServ from './components/imgs/react.png';
 
@@ -17,6 +18,7 @@ export default function App() {
       <Relogio/>
       <Header/> {/* Componente */}
       <Corpo/>
+      <State/>
       {/* <Dados canal='CFB Cursos' youtube='youtube.com/cfbcursos' curso='React'/> */} {/* Primeira forma de enviar propriedades para os componentes PROPS */}
       {/* <Dados
         canal={cnl}
