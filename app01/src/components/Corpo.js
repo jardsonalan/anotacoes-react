@@ -3,9 +3,16 @@ import Dados from './Dados';
 
 export default function Corpo() {
 
-    const cnl = 'CFB Cursos';
+    const cnl = () => {
+        return 'CFB Cursos';
+    };
+    // const cnl = 'CFB Cursos';
     const yt = 'youtube.com/cfbcursos';
     const crs = 'React';
+
+    const soma = (v1, v2) => {
+        return v1+v2;
+    }
 
     return (
         <section>
@@ -16,6 +23,7 @@ export default function Corpo() {
                 canal={cnl}
                 youtube={yt}
                 curso={crs}
+                soma={soma}
             />
         </section>
     );
