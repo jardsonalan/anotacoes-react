@@ -5,6 +5,7 @@ import './App.css';
 import Relogio from './components/Relogio.js';
 import State from './components/State.js';
 import Eventos from './components/Eventos.js';
+import RendCond from './components/RendCond.js';
 // import Dados from './components/Dados.js';
 // import LogoServ from './components/imgs/react.png';
 
@@ -23,6 +24,7 @@ export default function App() {
   return (
     <>
       <Relogio/>
+      <RendCond/>
       <Header/> {/* Componente */}
       <Corpo/>
       <State/>
