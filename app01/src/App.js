@@ -8,7 +8,8 @@ import './App.css';
 // import RendCond from './components/RendCond.js';
 // import Dados from './components/Dados.js';
 // import LogoServ from './components/imgs/react.png';
-import Lista from './components/Lista';
+// import Lista from './components/Lista';
+import Form from './components/Form';
 
 export default function App() {
 
@@ -24,7 +25,9 @@ export default function App() {
 
   return (
     <>
-      <Lista/>
+      <Form/>
+
+      {/* <Lista/> */}
 
       {/* <Relogio/> */}
       
