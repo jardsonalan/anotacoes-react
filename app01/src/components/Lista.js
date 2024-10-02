@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Lista() {
 
-    // const carros = ['HIV', 'Golf', 'Focus', 'Cruze', 'Argo'];
+    // const carros = ['HRV', 'Golf', 'Focus', 'Cruze', 'Argo'];
 
     const carros = [
         {categoria: 'Esporte', preco: '11000.00', modelo: 'Golf GTI'},
