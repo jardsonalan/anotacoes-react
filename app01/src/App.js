@@ -9,7 +9,8 @@ import './App.css';
 // import Dados from './components/Dados.js';
 // import LogoServ from './components/imgs/react.png';
 // import Lista from './components/Lista';
-import Form from './components/Form';
+// import Form from './components/Form';
+import ManipObjctState from './components/ManipObjctState';
 
 export default function App() {
 
@@ -25,7 +26,9 @@ export default function App() {
 
   return (
     <>
-      <Form/>
+      <ManipObjctState/>
+
+      {/* <Form/> */}
 
       {/* <Lista/> */}
 
